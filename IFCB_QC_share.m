@@ -30,11 +30,11 @@ IFCB_id = 163;
 sample_date = datetime(2023,5,1);
 
 %location of IFCB files in local directory:
-loc = '/Users/nicholas/Library/CloudStorage/Box-Box/BOON/Data/IFCB/ifcbdata/CA-IFCB-163/';
+loc = '/Users/name/.../IFCB/ifcbdata/CA-IFCB-163/';
 %location to write flag structures to:
-flag_loc = '/Users/nicholas/Documents/IFCB';
+flag_loc = '/Users/name/Documents/IFCB';
 %location to write metadata.csv file to:
-metadata_loc = '/Users/nicholas/Documents/IFCB';
+metadata_loc = '/Users/name/Documents/IFCB';
 
 %% LOCATE IFCB FILES
 %{
