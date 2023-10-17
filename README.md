@@ -10,4 +10,5 @@ Change the following variables before running the script:
 - flag_loc: location to write QC flag data to
 - metadata_loc: location to write metadata.csv file to before copying it to
 the IFCB computer
+
 When you are done with QC, copy the metadata.csv file to the appropriate directory location on the IFCB computer so that it will get uploaded to the IFCB dashboard the next time rsync is run on the IFCB computer.
