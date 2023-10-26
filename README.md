@@ -11,9 +11,7 @@ Change the following variables in the USER INPUTS section before running the scr
 - **metadata_loc:** location to write metadata.csv file to before copying it to
 the IFCB computer
 
-When you are done with QC, copy the metadata.csv file to the appropriate directory location on the IFCB computer so that it will get uploaded to the IFCB dashboard the next time rsync is run on the IFCB computer.
-## IFCB_QC_share_WindowsOS
-Version of IFCB_QC_share that will work on machines running Windows OS.
+When you are done with QC, copy the metadata.csv file to the appropriate directory location on the IFCB computer so that it will get uploaded to the IFCB dashboard the next time rsync is run on the IFCB computer.  If you want to run the script on a machine running Windows OS, use IFCB_QC_share_WindowsOS instead of IFCB_QC_share.
 ### USER INPUTS
 Variables that specify which IFCB sample to QC and its directory location.
 ### LOCATE IFCB FILES
